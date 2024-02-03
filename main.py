@@ -4,8 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the trained model
-model_path = "D:\Machine Learning\PaddyClassification\InceptionV3.h5"
-loaded_model = tf.keras.models.load_model(model_path)
+loaded_model = tf.keras.models.load_model('InceptionV3.h5')
 
 # Define the class labels
 class_labels = ["Bacterialblight", "Blast", "Brownspot", "Tungro"]
